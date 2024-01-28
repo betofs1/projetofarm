@@ -335,11 +335,11 @@ ul.social_icon_top li a:hover {
 }
 
 .header_bottom {
-     border: 0px solid red;
-     background-color: #fff;
-     height: 50px;
-     padding: 25px 25px;
-     display: flex;
+border: 0px solid red;
+background-color: #fff;
+height: 50px;
+padding: 25px 25px;
+display: flex;
 justify-content: center;
 align-items: center;
 border-radius: 15px;
