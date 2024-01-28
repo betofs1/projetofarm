@@ -1,22 +1,13 @@
+const produto1 = {}
+produto1.nome = 'iphone'
+produto1.valor = 5000.10
+produto1 ['desconto massa'] = 0.40
 
-// bloco 1
-{
-  console.log(1)
-  console.log(3)
-  console.log(5)
-  console.log(7)
-  console.log(9)
-}
-//bloco 2
-{
-  console.log(2)
-  console.log(4)
-  console.log(6)
-  console.log(8)
-  console.log(10)
+console.log(produto1)
+
+const produto2 = {
+  nome:'iphone',
+  preco: 4999.10
 }
 
-
-
-
-
+console.log(produto2)
