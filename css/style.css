@@ -38,6 +38,7 @@
      max-width: 1000px;
      
      
+     
 }
 
 html {
@@ -45,6 +46,7 @@ html {
 }
 
 body {
+     
      color: #666666;
      font-size: 10px;
      font-family: 'Poppins', sans-serif;
@@ -53,6 +55,7 @@ body {
 }
 
 a {
+     
      color: #1f1f1f;
      text-decoration: none !important;
      outline: none !important;
@@ -240,6 +243,7 @@ button {
 /*---------------------------- preloader area ----------------------------*/
 
 .loader_bg {
+     
      position: fixed;
      z-index: 9999999;
      background: #fff;
@@ -266,9 +270,9 @@ button {
 /*-- header --*/
 
 .header {
-     
      width: 100%;
      height: 100px;
+     
 }
 
 .header_top {
@@ -335,7 +339,8 @@ ul.social_icon_top li a:hover {
 }
 
 .header_bottom {
-border: 0px solid red;
+
+
 background-color: #fff;
 height: 50px;
 padding: 25px 25px;
@@ -416,23 +421,30 @@ ul.search li a:hover {
 /** banner section **/
 
 .full_bg {
+border: 0px solid red;
+border-radius: 50px;
      background: url(../images/banner2.jpg);
      background-size: 100% 100%;
-     background-position: center;
      background-repeat: no-repeat;
 }
 
 .banner_main {
+     
+     
+     
      position: relative;
-     padding-bottom: 212px;
+     padding-bottom: 100px;
+     
 }
 
 .build_box {
+     
      text-align: left;
-     padding-top: 20%;
+     padding-top: 10%;
 }
 
 .banner_po {
+     
      position: inherit;
 }
 
@@ -445,7 +457,7 @@ ul.search li a:hover {
 }
 
 .build_box h1 {
-     font-size: 100px;
+     font-size: 50px;
      font-weight: bold;
      color: #fff;
      line-height: 90px;
@@ -1324,6 +1336,7 @@ ul.insta li {
           top: 0;
           ;
      }
+}
      /* Standard syntax */
      @keyframes myfirst {
           0% {
