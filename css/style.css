@@ -430,7 +430,7 @@ border-radius: 50px;
 
 .banner_main {
      
-     
+     border: 0px solid red;
      
      position: relative;
      padding-bottom: 100px;
@@ -438,29 +438,34 @@ border-radius: 50px;
 }
 
 .build_box {
-     
+    
+     border: 0px solid red;
      text-align: left;
      padding-top: 10%;
 }
 
 .banner_po {
+  
      
      position: inherit;
 }
 
 .build_box p {
+     
+     
      color: #fff;
-     font-size: 17px;
-     line-height: 30px;
+     font-size: 15px;
+     line-height: 5px;
      font-weight: normal;
-     margin-bottom: 55px;
+     margin-bottom: 40px;
 }
 
 .build_box h1 {
-     font-size: 50px;
+     
+     font-size: 40px;
      font-weight: bold;
      color: #fff;
-     line-height: 90px;
+     line-height: 30px;
      padding-bottom: 20px;
      display: block;
 }
@@ -480,6 +485,7 @@ border-radius: 50px;
 
 #myCarousel .carousel-control-prev,
 #myCarousel .carousel-control-next {
+     
      width: 75px;
      height: 75px;
      background: #161825;
@@ -494,11 +500,13 @@ border-radius: 50px;
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
+     
      background: #fd9801;
      color: #fff;
 }
 
 #myCarousel .carousel-control-prev {
+     
      right: 15%;
      left: inherit;
 }
@@ -542,6 +550,7 @@ border-radius: 50px;
 }
 
 .read_more {
+     
      font-size: 17px;
      background-color: #1b1b1a;
      color: #fff;
@@ -558,6 +567,7 @@ border-radius: 50px;
 }
 
 .read_more:hover {
+     
      background: #f4a111;
      color: #fff;
      transition: ease-in all 0.5s;
@@ -578,6 +588,7 @@ border-radius: 50px;
 }
 
 .const span {
+     
      transition: ease-in all 0.5s;
      display: block;
      font-size: 16px;
