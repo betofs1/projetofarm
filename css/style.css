@@ -559,7 +559,7 @@ border-radius: 50px;
      max-width: 186px;
      text-align: center;
      display: inline-block;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
      font-weight: 500;
      border-radius: 5px;
      height: 60px;
@@ -570,45 +570,81 @@ border-radius: 50px;
      
      background: #f4a111;
      color: #fff;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
 }
 
 
 /* three_box */
 
 .three_box {
-     margin-top: -90px;
+     margin-top: -110px;
+     
+}
+.three_box .col-md-3{
+     
+     border: 0px solid red;
+     padding-left: 0px;
+     padding-top: 0px;
+     padding-right: 0px;
+     padding-right: 0px;
+     display: grid;
+     place-items: center;
 }
 
+
+.three_box .row{
+     border: 0px solid red;
+  
+     
+}
+
+
+
+
+
 .const {
-     padding: 40px 0 25px 0;
-     background: #fff;
+     border: 0px solid red;
+     width: 60%;
+     height: 60%;
+     padding: 40px 0px 40px 0px;
+     background: #e2e1e1;
      box-shadow: 0 0 250px rgba(3, 3, 3, 0.16);
      transition: ease-in all 0.5s;
+    display: grid;
+  place-items: center;
+  border-radius: 10px;
+  
+  
+ 
 }
 
 .const span {
      
-     transition: ease-in all 0.5s;
-     display: block;
-     font-size: 16px;
+     
+     display: inline;
+     font-size: 13px;
      font-weight: 700;
      text-transform: uppercase;
      font-family: 'Raleway', sans-serif;
      color: #090a0b;
      padding-top: 35px;
-     line-height: 20px;
+     
+     
+
 }
 
 #text_hover:hover.const {
+     
      background-color: #f89501;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
      cursor: pointer;
+     
 }
 
 #text_hover:hover.const span {
-     color: #fff;
-     transition: ease-in all 0.5s;
+     
+     color: #f36b11;
+     transition: ease-in all 0.2s;
 }
 
 
