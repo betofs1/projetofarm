@@ -1,13 +1,17 @@
-const produto = {}
-produto.nome = "Iphone 13 PRO MAX"
-produto.valor = 5000
+const a = 7
+let b = 3
 
-console.log (produto)
+b += a //b=b +a//
+console.log(b)
 
-const produto2 = {
-  nome: "CAMISA",
-  preco: 500,
-}
-console.log (produto2)
+b -= 4 //b=b -4//
+console.log(b)
 
+b *= 2 //b=b *2//
+console.log(b)
 
+b /= 2 //b=b /2//
+console.log(b)
+
+b %= 4 //b=b %2//
+console.log(b)
