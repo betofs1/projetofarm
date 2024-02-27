@@ -1,4 +1,6 @@
-{
+//settings.json
+
+ {
   // editor
   "editor.wordWrap": "on",
   "editor.fontSize": 18,
@@ -34,3 +36,4 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
